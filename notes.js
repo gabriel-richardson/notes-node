@@ -19,6 +19,7 @@ var addNote = (title, body) => {
         title,
         body
     };
+    
     var duplicateNotes = notes.filter((note) => note.title === title);
 
     if (duplicateNotes.length === 0) {
